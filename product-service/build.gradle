@@ -11,10 +11,9 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
-
-
     testImplementation('org.testcontainers:mongodb')
     testImplementation('org.testcontainers:junit-jupiter')
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
 }
 
 test {
